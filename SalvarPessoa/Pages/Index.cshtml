@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/salvar-pessoa.js" ></script>
+}
+
+<form id="form" onsubmit="salvar()">
+    <div style="margin-top: 18px;">
+        <label for="nome">Nome Completo:</label>
+        <input id="nome" asp-for="Pessoa.Nome" />
+        <span asp-validation-for="Pessoa.Nome" ></span>
+    </div> 
+    <div style="margin-top: 16px;">
+        <label for="matricula">Matricula:</label>
+        <input id="matricula" asp-for="Pessoa.Matricula" />
+        <span asp-validation-for="Pessoa.Matricula" ></span>
+    </div> 
+    <input style="margin-top: 30px" type="submit" value="Salvar" />
+</form>

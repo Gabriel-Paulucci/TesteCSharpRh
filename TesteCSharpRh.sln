@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{2AF5DBAB-84AB-402B-AF88-AF8E0D313E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalvarPessoa", "SalvarPessoa\SalvarPessoa.csproj", "{74F361DC-FF86-4CAC-9633-B84985AFFED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AF5DBAB-84AB-402B-AF88-AF8E0D313E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF5DBAB-84AB-402B-AF88-AF8E0D313E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF5DBAB-84AB-402B-AF88-AF8E0D313E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF5DBAB-84AB-402B-AF88-AF8E0D313E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F361DC-FF86-4CAC-9633-B84985AFFED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F361DC-FF86-4CAC-9633-B84985AFFED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F361DC-FF86-4CAC-9633-B84985AFFED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F361DC-FF86-4CAC-9633-B84985AFFED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E573683F-C048-48D5-A28A-588BDCFAF99C}
+	EndGlobalSection
+EndGlobal
